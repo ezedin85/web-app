@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .btn {
+    padding: 3px 15px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #229ED9;
+    margin: 3px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .btn.remove {
+    background-color: #f7c425;
+    color: black;
+  }
+  
+  .btn.checkout {
+    background-color: #3fcbb5;
+  }
+  
+  
+  .cart {
+    text-align: center;
+  }
+  
+  .seeSelectedBtn{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 10px;
+    background-color: #229ED9;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+   }
